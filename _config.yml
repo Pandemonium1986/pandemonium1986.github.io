@@ -1,126 +1,156 @@
 # Site
-repository: Pandemonium1986/pandemonium1986.github.io
-favicon: images/favicon.ico
+repository:               Pandemonium1986/pandemonium1986.github.io
+favicon:                  images/favicon.ico
 
 # Content configuration version
-version: 2
+version:                  2
 
 # Personal info
-name: Michaël Maffait
-title: S.R.E Ci/Cd DevOps
-# email: Your email (optional)
-# email_title: Email (Email title override)
-# phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: https://michaelmaffait.com
-website_title: Resume
+name:                     Michaël Maffait
+title:                    S.R.E Ci/Cd DevOps
+# email:                  Your email (optional)
+# email_title:            Email (Email title override)
+# phone:                  Your phone number (optional)
+# phone_title:            Phone (Phone title override)
+website:                  https://michaelmaffait.fr
+# website_title:          Resume
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode:                 true
 
 # Social links
-# twitter_username: jekyllrb
-github_username:  Pandemonium1986
+# twitter_username:       jekyllrb
+github_username:          Pandemonium1986
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-linkedin_username: maikimike
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# dribbble_username:      jekyll
+# facebook_username:      jekyll
+# flickr_username:        jekyll
+# instagram_username:     jekyll
+linkedin_username:        maikimike
+# xing_username:          jekyll
+# pinterest_username:     jekyll
+# youtube_username:       jekyll
+# googleplus_username:    +jekyll
+# orcid_username:         0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title:                  Ansible Galaxy
+  icon:                   fab fa-redhat
+  url:                    https://galaxy.ansible.com/pandemonium1986
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# gtm:                    "GTM-0000000"
+# gtag:                   "UA-00000000-0"
+# google_analytics:       "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+# about_title:            About Me (Use this to override about section title)
+about_profile_image:      images/avatar.jpeg
+about_content:            |
+  Hi, I'm Michael Maffait, an S.R.E DevOps enthusiast with 11 years of experience currently specialising in Ci/Cd tools and practices.
+  I am currently working for [Devoteam](https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/) as consultant where I have various missions :
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+    - Upgrade existing Ci/Cd stacks.
+    - Trainer on tools and methods related to software engineering.
+    - Speaker (Meetup / Companies / Schools).
+    - Technical leader of the GitHub partnership.
+
+  I have always been concerned about doing high quality work and showing great reliability.
+  It is in this perspective that I discovered continuous integration. I switched to its practices after several years spent as a developer on multiple languages.
+  I consolidated my skills with the acquisition and implementation of Agility via the Scrum method.
+  Today I go even further by being an actor of the DevOps culture. I federate Dev and Ops to the same methodology and the same tools to move from continuous integration to continuous deployment.
+
+  The things that I currently have the most experience working with are: <mark>Ansible</mark>, <mark>Git</mark>, <mark>GitHub</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>Vagrant</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:                Projects # Title for the section
+    layout:               list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+      - layout:           top-middle
+        title:            Ansible Collection - k8s toolbox
+        link:             https://galaxy.ansible.com/pandemonium1986/k8s_toolbox
+        link_text:        Ansible Galaxy - pandemonium1986/k8s_toolbox
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          - title:        Pandemonium1986/ansible-collection-k8s-toolbox
+            icon:         fab fa-github
+            url:          https://github.com/Pandemonium1986/ansible-collection-k8s-toolbox
+        # quote:          >
+        # This Ansible Collection "k8s toolbox" contains roles and playbooks to deploy and configured tools to managed a kubernetes cluster.
+        description:      |
+          This Ansible Collection "k8s toolbox" contains roles and playbooks to deploy and configured tools to managed a kubernetes cluster.
+      - layout:           top-middle
+        title:            Vagrant - Midgar
+        link:             https://app.vagrantup.com/pandemonium/boxes/midgar-mnt
+        link_text:        Vagrant Cloud - pandemonium/midgar-mnt
+        additional_links:
+          - title:        Pandemonium1986/vagrant-midgar
+            icon:         fab fa-github
+            url:          https://github.com/Pandemonium1986/vagrant-midgar
+        # quote:          >
+        # This project start/build a virtualbox vm from my pandemonium/debian10 or pandemonium/mint1903. Both boxes are provisioned with ansible. Allowing to deploy all the tools I use for development.
+        description:      |
+          This project start/build a virtualbox vm from my pandemonium/debian10 or pandemonium/mint1903. Both boxes are provisioned with ansible. Allowing to deploy all the tools I use for development.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title:                Experience
+    layout:               list
+    content:
+      - layout:           left
+        title:            Devoteam
+        sub_title:        Technical leader S.R.E Ci/Cd DevOps
+        caption:          April 2018 - present
+        # link:           Link to company (optional)
+        quote:            >
+          Devoteam is a major player in innovative technology and management consulting for companies. Our 7,600 professionals are committed to helping our clients win the digital battle.
+        description:      |
+          I am a consultant specialized in Ci/Cd technologies and DevOps culture.
+          My job is to help software development and operational teams to transformation or improvement of their Software Development Lifecycle (SDLC).
+          To do this, I help Dev and Ops teams to implement and use continuous integration and deployment tools allowing them to reduce the time needed to go into production and improve the quality of deliveries.
+          As tools are nothing without a common approach and culture, I help Dev and Ops teams to collaborate around the DevOps culture. Based on 5 pillars the Culture, Automation, Lean, Share, Measure (C.A.L.M.S).
+      - layout:           left
+        title:            Thales
+        sub_title:        From Dev to DevOps Engineer
+        caption:          December 2008 - April 2018
+        # link:           Link to company (optional)
+        quote:            >
+          Thales is a global high technology leader investing in digital and “deep tech” innovations – connectivity, big data, artificial intelligence, cybersecurity and quantum technology – to build a future we can all trust, which is vital to the development of our societies.
+        description:      |
+          My career in IT started as an analyst at the Help Desk of Thales Services.
+          After a short stint in the support world, I joined the development team of this service as a PHP developer on the tools used by analysts.
+          I continued as a JAVA developer, for the "tooling" team of Thales Services.
+          It was during this period that I discovered continuous integration, tools and software engineering practices.
+          Anxious to provide a quality service, I specialised in this approach by continuously seeking to improve the reliability and quality of delivery.
+          I then switched to continuous deployment practices to close the loop.
+  - title:                Education
+    layout:               list
+    content:
+      - layout:           top-right
+        title:            Université de Versailles Saint-Quentin-en-Yvelines
+        sub_title:        Master 2 Ingénierie de Réseaux et des Systèmes
+        caption:          2008 - 2010
+        # quote:          >
+        #   Short institution or course description (optional)
+        # description:    | # this will include new lines to allow paragraphs
+        #   Description of qualification
+  - title:                A Little More About Me
+    layout:               text
+    content:              |
+      When I'm not at the keyboard contributing to opensource projects, I spend time with my family, I play electric guitar and I travel the roads of France on my Yamaha.
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references:   true
+references_title:         ":metal:"
 
 # Build settings
-# theme: modern-resume-theme
-remote_theme: sproogen/modern-resume-theme
+# theme:                  modern-resume-theme
+remote_theme:             sproogen/modern-resume-theme
 
 plugins:
  - jekyll-seo-tag
+ - jemoji
 
-exclude : [
+exclude :                 [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
