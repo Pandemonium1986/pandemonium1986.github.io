@@ -133,10 +133,15 @@ content:
         #   Short institution or course description (optional)
         # description:    | # this will include new lines to allow paragraphs
         #   Description of qualification
-  - title:                A Little More About Me
+  - title:                Certifications
     layout:               text
     content:              |
-      When I'm not at the keyboard contributing to opensource projects, I spend time with my family, I play electric guitar and I travel the roads of France on my Yamaha.
+      [GitLab Certified Professional Services Engineer](https://gitlab.badgr.com/public/assertions/rD3uFxz6RbG5ekzNWTONXA?identity__email=michael.maffait@devoteam.com)<br/>
+      [GitLab Verified Sales Core](https://gitlab.badgr.com/public/assertions/lx3kjP37Twm-Qgf7cgyNTA?identity__email=michael.maffait@devoteam.com)<br/>
+      [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/4c2bc76d-d7c6-4bea-ad0d-8bbf712ba05d/linked_in_profile)<br/>
+      [RedHat Certified: Engineer](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=)<br/>
+      [RedHat Certified: Specialist in Ansible Automation](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======)<br/>
+      [RedHat Certified: System Administrator](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=)<br/>
 
 # Footer
 footer_show_references:   true
