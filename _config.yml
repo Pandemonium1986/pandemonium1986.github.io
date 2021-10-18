@@ -50,7 +50,7 @@ additional_links:
 about_profile_image:      images/avatar.jpeg
 about_content:            |
   Hi, I'm Michael Maffait, an S.R.E DevOps enthusiast with 11 years of experience currently specialising in Ci/Cd tools and practices.
-  I am currently working for [Devoteam](https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/) as consultant where I have various missions :
+  I am currently working for <a href="https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/" style="color:#96989b">Devoteam</a> as consultant where I have various missions :
 
     - Upgrade existing Ci/Cd stacks.
     - Trainer on tools and methods related to software engineering.
@@ -136,12 +136,12 @@ content:
   - title:                Certifications
     layout:               text
     content:              |
-      <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;">[ GitLab Certified Professional Services Engineer](https://gitlab.badgr.com/public/assertions/rD3uFxz6RbG5ekzNWTONXA?identity__email=michael.maffait@devoteam.com)<br/>
-      <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;">[ GitLab Verified Sales Core](https://gitlab.badgr.com/public/assertions/lx3kjP37Twm-Qgf7cgyNTA?identity__email=michael.maffait@devoteam.com)<br/>
-      <img alt="microsoft" src="https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg" style="width:16px;height:16px;">[ Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/4c2bc76d-d7c6-4bea-ad0d-8bbf712ba05d/linked_in_profile)<br/>
-      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;">[ RedHat Certified: Engineer](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=)<br/>
-      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;">[ RedHat Certified: Specialist in Ansible Automation](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======)<br/>
-      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;">[ RedHat Certified: System Administrator](https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=)<br/>
+      <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;"><a href="https://gitlab.badgr.com/public/assertions/rD3uFxz6RbG5ekzNWTONXA?identity__email=michael.maffait@devoteam.com" style="color:#96989b"> GitLab: Certified Professional Services Engineer (PSE)</a><br/>
+      <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;"><a href="https://gitlab.badgr.com/public/assertions/lx3kjP37Twm-Qgf7cgyNTA?identity__email=michael.maffait@devoteam.com" style="color:#96989b"> GitLab: Verified Sales Core</a><br/>
+      <img alt="microsoft" src="https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg" style="width:16px;height:16px;"><a href="https://www.credly.com/badges/4c2bc76d-d7c6-4bea-ad0d-8bbf712ba05d/linked_in_profile" style="color:#96989b"> Microsoft: Certified Azure Fundamentals (AZ-900)</a><br/>
+      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;"><a href="https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=" style="color:#96989b"> RedHat: Certified Engineer (RHCE)</a><br/>
+      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;"><a href="https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======" style="color:#96989b"> RedHat: Certified Specialist in Ansible Automation (EX407)</a><br/>
+      <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;"><a href="https://rhtapps.redhat.com/certifications/badge/verify/QYOGOOI4HC54UQYICG6PA4BURUAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=" style="color:#96989b"> RedHat: Certified System Administrator (RHCSA)</a><br/>
 
 # Footer
 footer_show_references:   true
