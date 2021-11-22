@@ -49,20 +49,20 @@ additional_links:
 # about_title:            About Me (Use this to override about section title)
 about_profile_image:      images/avatar.jpeg
 about_content:            |
-  Hi, I'm Michael Maffait, an S.R.E DevOps enthusiast with 11 years of experience currently specialising in Ci/Cd tools and practices.
-  I am currently working for <a href="https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/" style="color:#96989b">Devoteam</a> as consultant where I have various missions :
+  Hi, I'm Michael Maffait, a passionate DevOps and S.R.E expert. Since 2008, my career as a software engineer has been focused on Ci/Cd tools and practices.
+  I currently work for <a href="https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/" style="color:#96989b">Devoteam</a> as a Solution Leader. My missions are the following :
 
-    - Upgrade existing Ci/Cd stacks.
-    - Trainer on tools and methods related to software engineering.
-    - Speaker (Meetup / Companies / Schools).
-    - Technical leader of the GitHub partnership.
+  * Site Reliability Engineer for the features teams of a private cloud project.
+  * Trainer on software engineering tools and methods.
+  * Speaker (Meetup / Companies / Schools).
+  * Technical manager of the GitHub partnership.
 
-  I have always been concerned about doing high quality work and showing great reliability.
-  It is in this perspective that I discovered continuous integration. I switched to its practices after several years spent as a developer on multiple languages.
-  I consolidated my skills with the acquisition and implementation of Agility via the Scrum method.
-  Today I go even further by being an actor of the DevOps culture. I federate Dev and Ops to the same methodology and the same tools to move from continuous integration to continuous deployment.
+  The two main foundations of my work are quality and reliability. After 5 years as a developer on multiple programming languages, my career has turned to the practices and tools of continuous integration and continuous deployment.
+  DevOps culture has become my area of expertise. From evangelist at Thales to Solution leader at Devoteam, my career path has led me to tool, train and federate features teams in CI/CD, containerisation and agility.  
+  Today, I work as a S.R.E. to support the teams in the implementation of this approach and its tools. The objective is to make them responsible for their continuous improvement loop and the reliability of their production.
 
-  The things that I currently have the most experience working with are: <mark>Ansible</mark>, <mark>Git</mark>, <mark>GitHub</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>Vagrant</mark>.
+
+  My field of expertise:  <mark>Ansible</mark>, <mark>Git</mark>, <mark>GitHub</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>Vagrant</mark>.
 
 content:
   - title:                Projects # Title for the section
@@ -91,7 +91,7 @@ content:
         # quote:          >
         # This project start/build a virtualbox vm from my pandemonium/debian10 or pandemonium/mint1903. Both boxes are provisioned with ansible. Allowing to deploy all the tools I use for development.
         description:      |
-          This project start/build a virtualbox vm from my pandemonium/debian10 or pandemonium/mint1903. Both boxes are provisioned with ansible. Allowing to deploy all the tools I use for development.
+          A complete development system for Kubertenes, deployed in an automated way with Github Action, Ansible and Vagrant and available in many OS.
 
   - title:                Experience
     layout:               list
