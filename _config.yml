@@ -58,7 +58,7 @@ about_content:            |
   * Technical manager of the GitHub partnership.
 
   The two main foundations of my work are quality and reliability. After 5 years as a developer on multiple programming languages, my career has turned to the practices and tools of continuous integration and continuous deployment.
-  DevOps culture has become my area of expertise. From evangelist at Thales to Solution leader at Devoteam, my career path has led me to tool, train and federate features teams in CI/CD, containerisation and agility.  
+  DevOps culture has become my area of expertise. From evangelist at Thales to Solution leader at Devoteam, my career path has led me to tool, train and federate features teams in CI/CD, containerisation and agility.
   Today, I work as a S.R.E. to support the teams in the implementation of this approach and its tools. The objective is to make them responsible for their continuous improvement loop and the reliability of their production.
 
 
@@ -98,7 +98,7 @@ content:
     content:
       - layout:           left
         title:            Devoteam
-        sub_title:        Technical leader S.R.E Ci/Cd DevOps
+        sub_title:        Solution leader S.R.E Ci/Cd DevOps
         caption:          April 2018 - present
         # link:           Link to company (optional)
         quote:            >
