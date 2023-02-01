@@ -51,13 +51,38 @@ jobs:
         uses: actions/upload-pages-artifact@v1
 
   # Deployment job
-  deploy:
+  deploy-github-pages:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment-ghp.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deployment-ghp
         uses: actions/deploy-pages@v1
+
+  deploy-ovh:
+    strategy:
+      matrix:
+        ovh: [ovh-uat, ovh-prd]
+    environment:
+      name: ${{ matrix.ovh }}
+      # url: https://michaelmaffait.ovh
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          path: .
+      - name: Untar artifact contents
+        run: tar -xf ${GITHUB_WORKSPACE}/artifact.tar && rm ${GITHUB_WORKSPACE}/artifact.tar
+      - name: Deploy to Ovh
+        id: deployment-ovh
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ${{ vars.OVH_FTP_URL }}
+          username: ${{ secrets.OVH_FTP_LOGIN }}
+          password: ${{ secrets.OVH_FTP_PASS }}
+          server-dir: ./www/
