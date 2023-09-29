@@ -1,7 +1,7 @@
 ---
 repository:
   name: "pandemonium1986.github.io"
-  description: "Default community health files"
+  description: "Personal resume"
   homepage: https://michaelmaffait.fr
   topics: "jekyll, pages, resume"
   private: false
