@@ -46,7 +46,7 @@ The deployment is done automatically by [github-pages](https://github.com/Pandem
 
 ## Built With
 
--   [Jekyll](https://jekyllrb.com/docs/) - Templating
+- [Jekyll](https://jekyllrb.com/docs/) - Templating
 
 ## Versioning
 
@@ -54,7 +54,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
--   **Michael Maffait** - _Initial work_ - [Pandemonium1986](https://github.com/Pandemonium1986)
+- **Michael Maffait** - _Initial work_ - [Pandemonium1986](https://github.com/Pandemonium1986)
 
 See also the list of [contributors](https://github.com/Pandemonium1986/pandemonium1986.github.io/contributors) who participated in this project.
 
