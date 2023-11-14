@@ -1,32 +1,32 @@
 # Site
-repository:               Pandemonium1986/pandemonium1986.github.io
-favicon:                  images/favicon.ico
+repository: Pandemonium1986/pandemonium1986.github.io
+favicon: images/favicon.ico
 
 # Content configuration version
-version:                  2
+version: 2
 
 # Personal info
-name:                     Michaël Maffait
-title:                    S.R.E Ci/Cd DevOps
+name: Michaël Maffait
+title: S.R.E Ci/Cd DevOps
 # email:                  Your email (optional)
 # email_title:            Email (Email title override)
 # phone:                  Your phone number (optional)
 # phone_title:            Phone (Phone title override)
-website:                  http://michaelmaffait.fr
+website: http://michaelmaffait.fr
 # website_title:          Resume
 
 # Dark Mode (true/false/never)
-darkmode:                 true
+darkmode: true
 
 # Social links
 # twitter_username:       jekyllrb
-github_username:          Pandemonium1986
+github_username: Pandemonium1986
 # stackoverflow_username: "00000001"
 # dribbble_username:      jekyll
 # facebook_username:      jekyll
 # flickr_username:        jekyll
 # instagram_username:     jekyll
-linkedin_username:        maikimike
+linkedin_username: maikimike
 # xing_username:          jekyll
 # pinterest_username:     jekyll
 # youtube_username:       jekyll
@@ -35,9 +35,9 @@ linkedin_username:        maikimike
 
 # Additional icon links
 additional_links:
-- title:                  Ansible Galaxy
-  icon:                   fab fa-redhat
-  url:                    https://galaxy.ansible.com/pandemonium1986
+  - title: Ansible Galaxy
+    icon: fab fa-redhat
+    url: https://galaxy.ansible.com/pandemonium1986
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -47,8 +47,8 @@ additional_links:
 
 # About Section
 # about_title:            About Me (Use this to override about section title)
-about_profile_image:      images/avatar.jpeg
-about_content:            |
+about_profile_image: images/avatar.jpeg
+about_content: |
   Hi, I'm Michael Maffait, a passionate DevOps and S.R.E expert. Since 2008, my career as a software engineer has been focused on Ci/Cd tools and practices.
   I currently work for <a href="https://fr.devoteamcareers.com/decouvrez-les-offres-demploi/" style="color:#96989b">Devoteam</a> as a Solution Leader. My missions are the following :
 
@@ -65,77 +65,77 @@ about_content:            |
   My field of expertise:  <mark>Ansible</mark>, <mark>Git</mark>, <mark>GitHub</mark>, <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>Vagrant</mark>.
 
 content:
-  - title:                Projects # Title for the section
-    layout:               list # Type of content section (list/text)
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout:           top-middle
-        title:            Ansible Collection - k8s toolbox
-        link:             https://galaxy.ansible.com/pandemonium1986/k8s_toolbox
-        link_text:        Ansible Galaxy - pandemonium1986/k8s_toolbox
+      - layout: top-middle
+        title: Ansible Collection - k8s toolbox
+        link: https://galaxy.ansible.com/pandemonium1986/k8s_toolbox
+        link_text: Ansible Galaxy - pandemonium1986/k8s_toolbox
         additional_links:
-          - title:        Pandemonium1986/ansible-collection-k8s-toolbox
-            icon:         fab fa-github
-            url:          https://github.com/Pandemonium1986/ansible-collection-k8s-toolbox
+          - title: Pandemonium1986/ansible-collection-k8s-toolbox
+            icon: fab fa-github
+            url: https://github.com/Pandemonium1986/ansible-collection-k8s-toolbox
         # quote:          >
         # This Ansible Collection "k8s toolbox" contains roles and playbooks to deploy and configured tools to managed a kubernetes cluster.
-        description:      |
+        description: |
           This Ansible Collection "k8s toolbox" contains roles and playbooks to deploy and configured tools to managed a kubernetes cluster.
-      - layout:           top-middle
-        title:            Vagrant - Midgar
-        link:             https://app.vagrantup.com/pandemonium/boxes/midgar-mnt
-        link_text:        Vagrant Cloud - pandemonium/midgar-mnt
+      - layout: top-middle
+        title: Vagrant - Midgar
+        link: https://app.vagrantup.com/pandemonium/boxes/midgar-mnt
+        link_text: Vagrant Cloud - pandemonium/midgar-mnt
         additional_links:
-          - title:        Pandemonium1986/vagrant-midgar
-            icon:         fab fa-github
-            url:          https://github.com/Pandemonium1986/vagrant-midgar
+          - title: Pandemonium1986/vagrant-midgar
+            icon: fab fa-github
+            url: https://github.com/Pandemonium1986/vagrant-midgar
         # quote:          >
         # This project start/build a virtualbox vm from my pandemonium/debian10 or pandemonium/mint1903. Both boxes are provisioned with ansible. Allowing to deploy all the tools I use for development.
-        description:      |
+        description: |
           A complete development system for Kubertenes, deployed in an automated way with Github Action, Ansible and Vagrant and available in many OS.
 
-  - title:                Experience
-    layout:               list
+  - title: Experience
+    layout: list
     content:
-      - layout:           left
-        title:            Devoteam
-        sub_title:        Solution leader S.R.E Ci/Cd DevOps
-        caption:          April 2018 - November 2021
+      - layout: left
+        title: Devoteam
+        sub_title: Solution leader S.R.E Ci/Cd DevOps
+        caption: April 2018 - November 2021
         # link:           Link to company (optional)
-        quote:            >
+        quote: >
           Devoteam is a major player in innovative technology and management consulting for companies. Our 7,600 professionals are committed to helping our clients win the digital battle.
-        description:      |
+        description: |
           I am a consultant specialized in Ci/Cd technologies and DevOps culture.
           My job is to help software development and operational teams to transformation or improvement of their Software Development Lifecycle (SDLC).
           To do this, I help Dev and Ops teams to implement and use continuous integration and deployment tools allowing them to reduce the time needed to go into production and improve the quality of deliveries.
           As tools are nothing without a common approach and culture, I help Dev and Ops teams to collaborate around the DevOps culture. Based on 5 pillars the Culture, Automation, Lean, Share, Measure (C.A.L.M.S).
-      - layout:           left
-        title:            Thales
-        sub_title:        From Dev to DevOps Engineer
-        caption:          December 2008 - April 2018
+      - layout: left
+        title: Thales
+        sub_title: From Dev to DevOps Engineer
+        caption: December 2008 - April 2018
         # link:           Link to company (optional)
-        quote:            >
+        quote: >
           Thales is a global high technology leader investing in digital and “deep tech” innovations – connectivity, big data, artificial intelligence, cybersecurity and quantum technology – to build a future we can all trust, which is vital to the development of our societies.
-        description:      |
+        description: |
           My career in IT started as an analyst at the Help Desk of Thales Services.
           After a short stint in the support world, I joined the development team of this service as a PHP developer on the tools used by analysts.
           I continued as a JAVA developer, for the "tooling" team of Thales Services.
           It was during this period that I discovered continuous integration, tools and software engineering practices.
           Anxious to provide a quality service, I specialised in this approach by continuously seeking to improve the reliability and quality of delivery.
           I then switched to continuous deployment practices to close the loop.
-  - title:                Education
-    layout:               list
+  - title: Education
+    layout: list
     content:
-      - layout:           top-right
-        title:            Université de Versailles Saint-Quentin-en-Yvelines
-        sub_title:        Master 2 Ingénierie de Réseaux et des Systèmes
-        caption:          2008 - 2010
+      - layout: top-right
+        title: Université de Versailles Saint-Quentin-en-Yvelines
+        sub_title: Master 2 Ingénierie de Réseaux et des Systèmes
+        caption: 2008 - 2010
         # quote:          >
         #   Short institution or course description (optional)
         # description:    | # this will include new lines to allow paragraphs
         #   Description of qualification
-  - title:                Certifications
-    layout:               text
-    content:              |
+  - title: Certifications
+    layout: text
+    content: |
       <img alt="gitlab" src="https://raw.githubusercontent.com/rdimascio/icons/master/icons/light/github.svg" style="width:16px;height:16px;"><a href="https://www.credly.com/badges/14c6d012-8be2-419c-9cd5-535c5d1b93af/public_url" style="color:#96989b"> GitHub Actions</a><br/>
       <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;"><a href="https://www.credly.com/badges/e0e18500-5bc7-416a-b0c5-8025edd5c886/public_url" style="color:#96989b"> GitLab Certified Services Engineer Professional</a><br/>
       <img alt="gitlab" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" style="width:16px;height:16px;"><a href="https://www.credly.com/badges/7750daaa-8b94-4bdb-8c06-d4f41acd421b/public_url" style="color:#96989b"> GitLab Sales Core Verified Associate</a><br/>
@@ -145,26 +145,27 @@ content:
       <img alt="redhat" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/redhat-icon.svg" style="width:16px;height:16px;"><a href="https://www.credly.com/badges/43dc51da-1f67-4954-bdd5-b329f34113bf/public_url" style="color:#96989b"> Red Hat Certified System Administrator (RHCSA)</a><br/>
 
 # Footer
-footer_show_references:   true
-references_title:         ":metal:"
+footer_show_references: true
+references_title: ":metal:"
 
 # Build settings
 # theme:                  modern-resume-theme
-remote_theme:             sproogen/modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 plugins:
- - jekyll-seo-tag
- - jemoji
+  - jekyll-seo-tag
+  - jemoji
 
-exclude :                 [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
